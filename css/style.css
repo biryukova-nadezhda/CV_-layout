@@ -79,6 +79,7 @@ html {
 }
 
 .section_article_link:hover {
+
   text-decoration: underline;
   text-decoration-color: var(--color-accent);
 }
