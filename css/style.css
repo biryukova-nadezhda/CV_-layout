@@ -73,6 +73,16 @@ html {
   font-weight: bold;
 }
 
+.section_article_link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section_article_link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+}
+
 .section_article_info {
   color: #ffffff;
   text-decoration: none;
@@ -101,6 +111,7 @@ span {
 .list_item {
   list-style-type: none;
   text-align: justify;
+  margin-bottom: 18px;
 }
 
 .list_item::before {
@@ -178,7 +189,7 @@ span {
 @media (max-width: 640px) {
   .container {
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
   }
 
   .aside {
@@ -217,7 +228,7 @@ span {
 @media (max-width: 571px) {
   .container {
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
   }
 
   .flex_container {
